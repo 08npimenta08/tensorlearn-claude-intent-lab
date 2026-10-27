@@ -1,0 +1,23 @@
+{
+  "key": "intent",
+  "title": "Write the intent",
+  "minutes": 25,
+  "chapter": "Chapter 1 \u00b7 Intent",
+  "writeAllow": [
+    "intent.md",
+    "assessment.json"
+  ],
+  "practice": [
+    "intent.practice"
+  ],
+  "needsAI": true,
+  "brief": "A fictional clinic wants fewer calls asking whether results are ready. The approved PRD, recent notes and a superseded request disagree on scope and recipients.",
+  "acceptance": [
+    "The approved outcome and review-before-notification rule are explicit.",
+    "Messages expose no clinical details; unauthorized recipients are not silently approved.",
+    "Portal redesign and other superseded scope are excluded.",
+    "Channel choice and referring-doctor notifications remain open with owners.",
+    "The intent gives observable success conditions without inventing a target or approval."
+  ],
+  "recipeIndex": 1
+}
